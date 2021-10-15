@@ -11,7 +11,7 @@
 
 :root{
     --font-primary: "Baloo Da 2", serif;
-    --font-secondary: "Josefin Slab", serif;
+    --font-secundary: "Josefin Slab", serif;
     --font-action: "Mulish", serif;
 }
 
@@ -136,7 +136,7 @@ header {
 
 .banner p {
     font-size: 2rem;
-    font-family: var(--font-secondary);
+    font-family: var(--font-secundary);
     color: #FFFFFF;
     text-shadow: .2rem .2rem 1px rgba(0, 0, 0, .4);
     margin-bottom: 1.5rem;
@@ -290,6 +290,7 @@ header {
 }
 
 .sessao-header h1{
+    margin-top: 4%;
     font-family: var(--font-primary);
     font-size: 3rem;
     color: #727171;
@@ -307,7 +308,23 @@ header {
 }
 
 .tecnologia-header h3 {
-    font-family: var(--font-secondary);
+    font-family: var(--font-secundary);
     font-size: 1.6rem;
     padding-left: 1rem;
+}
+
+.tecnologia-text{
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+}
+
+.tecnologias-img-wraper {
+    grid-column: 6 / 11;
+    grid-row: 2 / 6;
+    width: 100%;
+}
+
+.tecnologias-img-wraper img {
+    object-fit: cover;
+    width: 100%;
 }
