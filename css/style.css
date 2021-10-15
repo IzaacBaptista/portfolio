@@ -136,7 +136,11 @@ header {
     background-color: rgb(228, 227, 227);
     position: fixed;
     top: 0;
-    right: 0;
+    right: -20rem;
+}
+
+.show-menu {
+    right: 0px;
 }
 
 .menu {
