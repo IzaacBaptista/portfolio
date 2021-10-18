@@ -363,11 +363,12 @@ header {
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, .6);
 }
 
-.card-info h2{
+.card-info h3{
     font-family: var(--font-primary);
     font-size: 3rem;
     font-weight: 500;
     color: #eee;
+    margin-bottom: 1.5rem;
 }
 
 .card-info h2{
@@ -381,9 +382,11 @@ header {
     font-weight: bolder;
     color: #eee;
     width: 80%;
+    margin-bottom: 2rem;
 }
 
 .card-info button{
+    border: none;
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .4);
     border-radius: .5rem;
     color: rgb(255, 255, 255);
@@ -394,7 +397,7 @@ header {
     background: -webkit-linear-gradient(to right, #62787e, #949393);
     background: linear-gradient(to left, #62787e, #949393);
     font-family: var(--font-action);
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
 
 .card-info button:hover{
