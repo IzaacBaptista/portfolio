@@ -328,3 +328,23 @@ header {
     object-fit: cover;
     width: 100%;
 }
+
+.projetos{
+    display: flex;
+}
+
+.card{
+    width: 20rem;
+    height: 30rem;
+}
+
+.card-img-wraper{
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-wraper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
