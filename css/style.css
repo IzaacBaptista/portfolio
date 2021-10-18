@@ -357,6 +357,8 @@ header {
 }
 
 .card-info{
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     bottom: 0;
     padding: 2rem;
@@ -386,6 +388,7 @@ header {
 }
 
 .card-info button{
+    
     border: none;
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .4);
     border-radius: .5rem;
@@ -409,6 +412,11 @@ header {
     border: 1px;
 }
 
+.card:hover .card-info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+}
 
 @media (max-width: 700px){
     .tecnologias{
