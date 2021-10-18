@@ -188,6 +188,7 @@ header {
     right: -20rem;
     transition: all 1s;
     opacity: 0.9;
+    z-index: 99;
 }
 
 .show-menu .sidebar{
@@ -331,20 +332,49 @@ header {
 
 .projetos{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .card{
-    width: 20rem;
-    height: 30rem;
+    width: 18rem;
+    height: 25rem;
+    position: relative;
 }
 
 .card-img-wrapper{
     width: 100%;
     height: 100%;
+    border-radius: .5rem;
+    background-color: #f5f5f5;
 }
 
 .card-img-wrapper img{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-radius: .5rem;
+    opacity: 0.8;
+}
+
+.card-info{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, .4);
+}
+
+.card-info h2{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: 500;
+    color: #eee;
+}
+
+
+
+@media (max-width: 700px){
+    .tecnologias{
+        display: flex;
+        flex-direction: column;
+    }
 }
