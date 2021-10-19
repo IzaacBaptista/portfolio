@@ -426,6 +426,12 @@ header {
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
+.btn:hover {
+    background: #7c99a1;
+    background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
+    background: linear-gradient(to left, #7c99a1, #a8a6a6);
+    border: 1px;
+}
 .card-info button {
   width: 8rem;
   height: 2.5rem;
