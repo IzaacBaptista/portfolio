@@ -329,6 +329,7 @@ header {
 }
 
 .card {
+  cursor: pointer;
   width: 18rem;
   height: 25rem;
   position: relative;
