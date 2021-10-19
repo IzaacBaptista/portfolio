@@ -148,8 +148,8 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   background: #979797;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: -webkit-linear-gradient(to right, #848385, #bcbbbd);
+  background: linear-gradient(to left, #9c9c9c, #afaeaf);
   padding: 1rem 3rem;
   border: none;
   border-radius: 5px;
