@@ -295,13 +295,16 @@ header {
 .sessao-conhecimentos {
     margin-top: 2%;
     background-color: #f5f5f5;
-    height: 100%;
+    height: 100vh;
+
 }
 
 .sessao-header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5%;
+
 }
 
 .sessao-header h1 {
@@ -347,13 +350,15 @@ header {
 
 .sessao-projetos{
     background-color: #f5f5f5;
-    height: 100%;
+    height: 100vh;
+
 }
 
 .projetos {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 .card {
@@ -448,3 +453,39 @@ header {
   visibility: visible;
 }
 
+.sessao-contato{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-wrapper{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
+}
+
+.contato-left {
+    width: 35%;
+    background: linear-gradient(rgb(213, 219, 219), rgba(142, 142, 143, 0.295)),
+                url("https://images.unsplash.com/photo-1615743113032-dd845caa43ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGxldHRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+  }
+
+  .contato-right{
+      background-color: rgb(202, 205, 206);
+      width: 65%;
+      padding: 3rem 3rem 3rem 3rem;
+  }
+
+  .sessao-contato h1 {
+      margin-top: -5%;
+      margin-bottom: 5%;
+      font-family: var(--font-primary);
+      color: #272727;
+      font-size: 3rem;
+      font-weight: lighter;
+  }
