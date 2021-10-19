@@ -1,159 +1,162 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-        <link rel="manifest" href="img/site.webmanifest">
-        <title>Portfólio</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="toggle">
-                <div class="line" id="line1"></div>
-                <div class="line" id="line2"></div>
-                <div class="line" id="line3"></div>
-                <span>Fechar</span>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
             </div>
+            <div class="banner">
+                <h1>Web Developer & Front End Designer</h1>
+                <p>João Carlos Lima</p>
+                <button>Saiba mais</button>
+            </div>
+        </header>
 
-            <header>
-                <div class="img-wrapper">
-                    <img class="img-container" src="img/container3.jpg" alt="">
-                </div>
-                <div class="banner">
-                    <h1>Web Developer &<br>Front End Designer</h1>
-                    <p>Izaac Baptista</p>
-                    <button>Saiba Mais</button>
-                </div>
-            </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github-alt"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </aside>
 
-            <aside class="sidebar">
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Tecnologias</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
-                    </ul>
-                </nav>
-                <div class="social-media">
-                    <a href="https://www.linkedin.com/in/izaac-baptista-78562311b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/IzaacBaptista" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/developper_js/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel obcaecati eaque quos, labore quibusdam incidunt dolores vitae velit voluptates esse omnis enim, dolorem eveniet. Rem ab obcaecati totam ipsum!</p>
+                    </div>
                 </div>
-            </aside>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore pariatur asperiores incidunt quod, sed aspernatur eos commodi ex nostrum consequuntur aut vero cum illum perferendis earum, eveniet hic itaque. Quod.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex eius voluptatem deleniti alias commodi doloremque aspernatur id adipisci quia ea, distinctio maxime, at nemo. Officiis suscipit excepturi quia aut?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas facere alias, reprehenderit ullam quibusdam itaque dolor nulla odio inventore culpa molestiae porro ea ad illo, quos dicta ratione quisquam?</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Boostrap</h3>
+                    </div>
+                        <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sequi, quas illo dolor totam voluptas pariatur harum blanditiis veritatis culpa doloremque aspernatur nesciunt dicta iure fuga similique ad, ut impedit.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis distinctio quaerat eaque ratione, molestias incidunt a iusto, unde quos magnam ullam exercitationem velit alias, fuga in explicabo ex laborum!</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
 
-            <section class="sessao-tecnologias">
-                <div class="sessao-header">
-                    <h1>Tecnologias</h1>
-                </div>
-                <div class="tecnologias">
-                    <div class="tecnologia">
-                        <div class="tecnologia-header">
-                            <i class="fab fa-html5"></i>
-                            <h3>HTML</h3>
-                        </div>
-                        <div class="tecnologia-text">
-                            <p>É uma linguagem de marcação de hipertexto. O <b>HTML</b> é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, áudio etc.) na web..</p>
-                        </div>
-                    </div>
-                    <div class="tecnologia">
-                        <div class="tecnologia-header">
-                            <i class="fab fa-css3-alt"></i>
-                            <h3>CSS</h3>
-                        </div>
-                        <div class="tecnologia-text">
-                            <p>É uma linguagem de folhas de estilos usada para definir o aspecto geral e a formatação (aparência) de um documento que está escrito em uma linguagem de marcação.</p>
-                        </div>
-                    </div>
-                    <div class="tecnologia">
-                        <div class="tecnologia-header">
-                            <i class="fab fa-js"></i>
-                            <h3>Javascript</h3>
-                        </div>
-                        <div class="tecnologia-text">
-                            <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.</p>
-                        </div>
-                    </div>
-                    <div class="tecnologia">
-                        <div class="tecnologia-header">
-                            <i class="fas fa-pencil-alt""></i>
-                            <h3>UI/UX</h3>
-                        </div>
-                        <div class="tecnologia-text">
-                            <p>O UI/UX design preocupa-se com os fluxos e a estrutura da informação apresentada. Responsável por criar protótipos e definir objetivos e passos sobre aquela que será a melhor experiência do usuário.</p>
-                        </div>
-                    </div>
-                    <div class="tecnologia">
-                        <div class="tecnologia-header">
-                            <i class="fab fa-bootstrap"></i>
-                            <h3>Bootstrap</h3>
-                        </div>
-                        <div class="tecnologia-text">
-                            <p>Bootstrap é um <b>framework</b> CSS para ser utilizado no front-end de aplicações web. Ele utiliza JavaScript e CSS para estilizar as páginas e adicionar funcionalidades ao site.</p>
-                        </div>
-                    </div>
-                    <div class="tecnologia">
-                        <div class="tecnologia-header">
-                            <i class="fab fa-git fa-github"></i>
-                            <h3>Git e Github</h3>
-                        </div>
-                        <div class="tecnologia-text">
-                            <p>GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão chamado Git</p>
-                        </div>
-                    </div>
-                    <div class="tecnologias-img-wraper">
-                        <img src="img/full-stack.png" alt="Full stack Developer">
-                    </div>
-                </div>
-            </section>
-            <section class="sessao-projetos">
+        <section>
+            <div class="sessao-projetos" id="projetos">
                 <div class="sessao-header">
                     <h1>Projetos</h1>
                 </div>
                 <div class="projetos">
                     <div class="card">
                         <div class="card-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1592859849982-5ccedab34269?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="imagem do projeto">
+                            <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
                         </div>
                         <div class="card-info">
                             <h2>ToDo List</h2>
                             <h3>Javascript</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit similique qui omnis non, enim exercitationem cupiditate animi quasi excepturi doloremque laudantium? Provident culpa aut numquam. Repudiandae id esse magnam minima?</p>
-                            <button>Saiba Mais</button>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam doloribus eos consequatur expedita architecto hic?</p>
+                            <button class="btn">Saiba Mais</button>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1609606331890-0b4031869ae4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80" alt="">
+                            <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
                         </div>
                         <div class="card-info">
-                            <h2>Landing Page</h2>
-                            <h3>HTML CSS</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quisquam laudantium debitis ad, numquam, quidem deserunt laboriosam id animi enim ducimus nesciunt dolores accusantium fuga, excepturi atque perferendis. Iste, veniam.</p>
-                            <button>Saiba Mais</button>
+                            <h2>Maratona</h2>
+                            <h3>HTML, CSS</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero voluptas ipsam ullam consectetur ab facilis cumque.</p>
+                            <button class="btn">Saiba Mais</button>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1618939536400-d25c3d7b7340?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="imagem do projeto">
+                            <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
                         </div>
                         <div class="card-info">
-                            <h2>Clone Spotify</h2>
-                            <h3>Bootstrap</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ab sint vitae maiores labore beatae consequuntur nihil deserunt, molestias praesentium veniam facere quisquam maxime hic dolorum quod ratione accusantium earum.</p>
-                            <button>Saiba Mais</button>
+                            <h2>Casa Bela</h2>
+                            <h3>HTML</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+                            <button class="btn">Saiba Mais</button>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-        
-        <script src="js/index.js"></script>
+            </div>
+        </section>
+    </div>
+    <script src="js/index.js"></script>
     </body>
 </html>
