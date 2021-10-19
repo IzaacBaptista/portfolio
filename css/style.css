@@ -21,6 +21,10 @@ html{
   scroll-behavior: smooth;
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
 .hamburguer {
   width: 2rem;
   height: 2rem;
@@ -131,9 +135,9 @@ header {
   color: #ffffff;
   font-size: 3.5rem;
   font-family: var(--font-primary);
-  font-weight: 200;
+  font-weight: 300;
   text-shadow: 0.3rem 0.4rem 2px rgba(0, 0, 0, 0.4);
-  line-height: 3.5rem;
+  line-height: 3rem;
   margin-bottom: 2rem;
   opacity: 0;
   animation: moveBanner 1s 0.5s forwards;
@@ -289,6 +293,7 @@ header {
 }
 
 .sessao-conhecimentos {
+    margin-top: 2%;
     background-color: #f5f5f5;
     height: 100%;
 }
