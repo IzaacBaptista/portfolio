@@ -66,27 +66,27 @@ body {
 }
 
 .hamburguer span {
-    position: absolute;
-    left: 3rem;
-    height: 2rem;
-    width: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(128, 128, 128);
-    color: #fff;
-    font-family: var(--font-action);
-    opacity: 0;
+  position: absolute;
+  left: 3rem;
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(128, 128, 128);
+  color: #fff;
+  font-family: var(--font-action);
+  opacity: 0;
 }
 
 .hamburguer span::before {
-    content: "";
-    position: absolute;
-    border-right: .5rem solid rgb(128, 128, 128);
-    border-top: .5rem solid transparent;
-    border-bottom: .5rem solid transparent;
-    border-left: .5rem solid transparent;
-    left: -1rem;
+  content: "";
+  position: absolute;
+  border-right: .5rem solid rgb(128, 128, 128);
+  border-top: .5rem solid transparent;
+  border-bottom: .5rem solid transparent;
+  border-left: .5rem solid transparent;
+  left: -1rem;
 }
 
 .show-menu .hamburguer:hover span {
@@ -154,26 +154,26 @@ header {
 }
 
 .banner button {
-    font-family: var(--font-action);
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    background: #62787e;
-    background: -webkit-linear-gradient(to right, #62787e, #949393);
-    background: linear-gradient(to left, #62787e, #949393);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    opacity: 0;
-    animation: moveBanner 1.5s 0.9s forwards;
+  font-family: var(--font-action);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: #62787e;
+  background: -webkit-linear-gradient(to right, #62787e, #949393);
+  background: linear-gradient(to left, #62787e, #949393);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  animation: moveBanner 1.5s 0.9s forwards;
 }
 
 .banner button:hover {
-    background: #7c99a1;
-    background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
-    background: linear-gradient(to left, #7c99a1, #a8a6a6);
-    border: 1px;
+  background: #7c99a1;
+  background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
+  background: linear-gradient(to left, #7c99a1, #a8a6a6);
+  border: 1px;
 }
 
 @keyframes moveBanner {
@@ -216,16 +216,16 @@ header {
 }
 
 .menu-link {
-    font-family: var(--font-action);
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    text-shadow: .2rem .1rem 1px rgba(255, 255, 255, 0.4);
-    transition: color 0.4s;
+  font-family: var(--font-action);
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  text-shadow: .2rem .1rem 1px rgba(255, 255, 255, 0.4);
+  transition: color 0.4s;
 }
 
 .menu-link:hover {
-    color: rgb(168, 168, 168);
-    font-size: 2.1rem;
+  color: rgb(168, 168, 168);
+  font-size: 2.1rem;
 }
 
 .social-media {
@@ -250,8 +250,8 @@ header {
 }
 
 .social-media i:hover {
-    background-color: rgb(151, 151, 151);
-    font-size: 1.8rem;
+  background-color: rgb(151, 151, 151);
+  font-size: 1.8rem;
 }
 
 .conhecimentos {
@@ -293,10 +293,9 @@ header {
 }
 
 .sessao-conhecimentos {
-    margin-top: 2%;
-    background-color: #f5f5f5;
-    height: 100vh;
-
+  margin-top: 2%;
+  background-color: #f5f5f5;
+  height: 100vh;
 }
 
 .sessao-header {
@@ -304,7 +303,6 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 5%;
-
 }
 
 .sessao-header h1 {
@@ -349,8 +347,8 @@ header {
 }
 
 .sessao-projetos{
-    background-color: #f5f5f5;
-    height: 100vh;
+  background-color: #f5f5f5;
+  height: 100vh;
 
 }
 
@@ -421,26 +419,26 @@ header {
 }
 
 .btn {
-    font-family: var(--font-action);
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    background: #62787e;
-    background: -webkit-linear-gradient(to right, #62787e, #949393);
-    background: linear-gradient(to left, #62787e, #949393);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    opacity: 0;
-    animation: moveBanner 1.5s 0.9s forwards;
-    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+  font-family: var(--font-action);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: #62787e;
+  background: -webkit-linear-gradient(to right, #62787e, #949393);
+  background: linear-gradient(to left, #62787e, #949393);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  animation: moveBanner 1.5s 0.9s forwards;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
 .btn:hover {
-    background: #7c99a1;
-    background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
-    background: linear-gradient(to left, #7c99a1, #a8a6a6);
-    border: 1px;
+  background: #7c99a1;
+  background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
+  background: linear-gradient(to left, #7c99a1, #a8a6a6);
+  border: 1px;
 }
 .card-info button {
   width: 8rem;
@@ -462,30 +460,31 @@ header {
 }
 
 .contato-wrapper{
-    width: 60%;
-    height: 30rem;
-    display: flex;
-    box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
+  width: 60%;
+  height: 30rem;
+  display: flex;
+  box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
 }
 
 .contato-left {
-    width: 35%;
-    background: linear-gradient(rgb(213, 219, 219), rgba(142, 142, 143, 0.295)),
-                url("https://images.unsplash.com/photo-1615743113032-dd845caa43ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGxldHRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-    background-size: cover;
-  }
+  width: 35%;
+  background: linear-gradient(rgb(213, 219, 219), rgba(142, 142, 143, 0.295)),
+              url("https://images.unsplash.com/photo-1615743113032-dd845caa43ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGxldHRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
 
-  .contato-right{
-      background-color: rgb(202, 205, 206);
-      width: 65%;
-      padding: 3rem 3rem 3rem 3rem;
-  }
+.contato-right{
+  background-color: rgb(202, 205, 206);
+  width: 65%;
+  padding: 3rem 3rem 3rem 3rem;
+}
 
-  .sessao-contato h1 {
-      margin-top: -5%;
-      margin-bottom: 5%;
-      font-family: var(--font-primary);
-      color: #272727;
-      font-size: 3rem;
-      font-weight: lighter;
-  }
+.sessao-contato h1 {
+  width: 100%;
+  margin-top: -5%;
+  margin-bottom: 5%;
+  font-family: var(--font-primary);
+  color: #272727;
+  font-size: 3rem;
+  font-weight: lighter;
+}
