@@ -618,3 +618,11 @@ header {
   padding: 0.3rem;
   /*border-radius: 5px;*/
 }
+
+.btn-orcamento{
+  text-transform: uppercase;
+  padding: 1rem;
+  cursor: pointer;
+  grid-column: 2;
+  margin-top: 3rem;
+}
