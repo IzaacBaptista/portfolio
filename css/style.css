@@ -467,13 +467,13 @@ header {
 }
 
 .contato-left {
-  width: 35%;
-  background: url("../img/PIXELS.jpg");
+  width: 55%;
+  background: url("../img/mensagem-illustration.jpg");
   background-size: cover;
 }
 
 .contato-right{
-  background-color: rgba(208,204,195,255);
+  background-color: rgba(241, 234, 230, 0.27);
   width: 65%;
   padding: 3rem 3rem 3rem 3rem;
 }
@@ -558,4 +558,63 @@ header {
   background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
   background: linear-gradient(to left, #7c99a1, #a8a6a6);
   border: 1px;
+}
+
+.sessao-orcamento{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orcamento-wrapper{
+  z-index: 1;
+  width: 60%;
+  height: 80%;
+  background-color: #ffffff99;
+  border-radius: 10px;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.sessao-orcamento h1{
+  position: absolute;
+  top: -2.5rem;
+  left: 2rem;
+  background: #62787e;
+  background: -webkit-linear-gradient(to right, #62787e, #949393);
+  background: linear-gradient(to left, #62787e, #949393);
+  padding: 0 3rem;
+  color: #fff;
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-weight: lighter;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.sessao-orcamento form {
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.sessao-orcamento label {
+  font-family: var(--font-secundary);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sessao-orcamento input[type="number"]{
+  font-family: var(--font-secundary);
+  font-size: 1.3rem;
+  width: 4rem;
+  outline: none;
+  border: none;
+  padding: 0.3rem;
+  /*border-radius: 5px;*/
 }
