@@ -686,3 +686,10 @@ footer {
   border-radius: .5rem;
   box-shadow: 0 0.1rem 0.6rem #00000009;
 }
+
+#link-topo:hover {
+  background: #7c99a1;
+  background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
+  background: linear-gradient(to left, #7c99a1, #a8a6a6);
+  border: 1px;
+}
