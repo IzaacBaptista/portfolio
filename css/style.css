@@ -669,3 +669,20 @@ footer {
 .social-list ul {
   display: flex;
 }
+
+#link-topo {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #62787e;
+  background: -webkit-linear-gradient(to right, #62787e, #949393);
+  background: linear-gradient(to left, #62787e, #949393);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: .5rem;
+  box-shadow: 0 0.1rem 0.6rem #00000009;
+}
