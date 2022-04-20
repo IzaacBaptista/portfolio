@@ -408,13 +408,15 @@ header {
   font-weight: bolder;
   color: #ff4081;
   margin-bottom: 1.5rem;
+  width: 220px;
 }
 
 .card-info p {
   font-family: var(--font-secundary);
   color: #eee;
   font-weight: 400;
-  width: 80%;
+  font-size: 22px;
+  width: 90%;
   margin-bottom: 2rem;
 }
 
