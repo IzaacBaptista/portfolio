@@ -292,6 +292,11 @@ header {
   grid-row: 5 / -1;
 }
 
+.conhecimento:nth-child(7) {
+  grid-column: 8 / 9;
+  grid-row: 6 / 6;
+}
+
 .sessao-conhecimentos {
   margin-top: 2%;
   background-color: #f5f5f5;
@@ -332,6 +337,7 @@ header {
 .conhecimento-text {
   font-family: var(--font-secundary);
   margin-top: 1rem;
+  width: 230px;
 }
 
 .conhecimentos-img-wrapper {
