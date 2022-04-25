@@ -322,7 +322,6 @@ header {
   display: flex;
   align-items: center;
   color: #4b4b4b;
-  width: 235px;
 }
 
 .conhecimento-header i {
@@ -341,12 +340,8 @@ header {
   width: 230px;
 }
 
-.framework {
-  width: 260px;
-}
-
 .conhecimentos-img-wrapper {
-  grid-column: 8 / 11;
+  grid-column: 7 / 11;
   grid-row: 2 / 6;
   width: 80%;
   height: 80%;
@@ -358,8 +353,9 @@ header {
 }
 
 .sessao-projetos{
-  margin-top: 15%;
+  /* margin-bottom: 50%; */
   background-color: #f5f5f5;
+  /* height: 100vh; */
 }
 
 .projetos {
@@ -706,119 +702,4 @@ footer {
   background: -webkit-linear-gradient(to right, #7c99a1, #dfdede);
   background: linear-gradient(to left, #7c99a1, #a8a6a6);
   border: 1px;
-}
-
-.debug {
-  border: red 1px solid;
-}
-
-@media (max-width: 600px)
-{
-  .banner {
-    width: 100%;
-    margin-left: -5%;
-    margin-top: -15%;
-  }
-
-  .sessao-conhecimentos {
-    width: 99.3%;
-  }
-
-  .sessao-header {
-    width: 100%;
-  }
-
-  .conhecimentos-img-wrapper {
-    display: none;
-  }
-  
-  .conhecimentos {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    display: block;
-  }
-
-  .html{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .css{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .ui-ux{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .js{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    height: 180px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .bootstrap{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    height: 180px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .git-github{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    height: 180px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .frameworks{
-    background-color: rgb(247, 243, 243);
-    width: 450px;
-    height: 180px;
-    padding: 5% 8% 5% 8%;
-  }
-
-  .conhecimento-text {
-    width: 400px;
-  }
-
-  .sessao-projetos{
-    margin-top: 190%;
-    background-color: #f5f5f5;
-  }
-
-  .sessao-header h1 {
-    padding-top: 5%;
-  }
-
-  .projetos {
-    display: block;
-    border: 1px solid red;
-
-  }
-
-  .card {
-    border: 1px solid red;
-    /* padding-bottom: 5%;
-    padding-left: 15%; */
-  }
-
-  .card-img-wrapper {
-    position:absolute;
-    border: 1px solid red;
-    /* padding-left: 15%; */
-    margin-left: 25%;
-    margin-top: 5%;
-    /* padding-bottom: 5%; */
-  }
-
-  .card-info{
-    /* border: 1px solid red; */
-  }
 }
